@@ -1,0 +1,272 @@
+l!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Ayam Geprek Spesial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #fff6f0;
+        }
+        header {
+            background: #d62828;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            color: #d62828;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .hero img 
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 12px;
+            width: 250px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: orange;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .btn:hover {
+            background: #d62828;
+        }
+        .payment img {
+            width: 80px;
+            margin: 10px;
+        }
+        footer {
+            background: #d62828;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🔥 Ayam Geprek Spesial 🔥</h1>
+    <p>Pedasnya Bikin Nagih!</p>
+</header>
+
+<div class="container">
+
+    <!--ayam geprek-->
+    <div class="hero">
+        
+    </div>
+    <!-- MENU -->
+    
+    <div class=”nenu<“
+
+        <div class="card">
+            <img src
+     <h3></h3>
+            <p></p>
+        </div>
+
+        <div class="card">
+            <img src="https://i.ibb.co.com/PG1khttt/669743-720.jpg">
+            <h3>Ayam Geprek sambal mercon</h3>
+            <p>Rp 15.000</p>
+        
+
+        <div class="card">
+            <img src=https://i.ibb.co.com/jZhWCnPC/IMG-20260409-125100.jpg">
+            <h3>Ayam Geprek sambal ijo</h3>
+            <p>Rp 18.000</p>
+        </div>
+    	
+    	<div class="card">
+    		<img src="https://i.ibb.co.com/C5335SzB/IMG-20260409-125433.jpg" alt="IMG-20260409-125433" border="0"></a>
+    			<h3>Ayam Geprek keju</h3>
+    			<p>Rp 25.000</p>
+    	</div>
+
+    </div>
+
+    <!-- TOMBOL PESAN -->
+    <a class="btn" href="https://wa.me/6285707689759">
+        Pesan via WhatsApp
+    </a>
+
+    <!-- PEMBAYARAN -->
+    <div class="payment">
+        <h2>Pembayaran</h2>
+        <p>Kami menerima pembayaran digital:</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Logo_dana_blue.svg" alt="DANA">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Gopay_logo.svg" alt="GoPay">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/QRIS_.svg" alt="QRIS">
+
+        <p><b>DANA / GoPay:</b> 085707689759</p>
+
+        <h3>Scan QRIS</h3>
+        
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Ayam Geprek Spesial | WA: 085707689759</p>
+</footer>
+
+</body>
+</html>
+    !DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pemesanan Ayam Geprek</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff3e0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #e65100;
+        }
+        input, select, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #e65100;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #bf360c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Pesan Ayam Geprek</h2>
+
+    <form onsubmit="kirimPesan(); return false;">
+        <label>Nama:</label>
+        <input type="text" id="nama" required>
+
+        <label>No HP:</label>
+        <input type="text" id="hp" required>
+
+        <label>Menu:</label>
+        <select id="menu">
+            <option>Ayam Geprek Original</option>
+            <option>Ayam Geprek Keju</option>
+            <option>Ayam Geprek Sambal Matah</option>
+        </select>
+
+        <label>Jumlah:</label>
+        <input type="number" id="jumlah" min="1" required>
+
+        <label>Alamat:</label>
+        <textarea id="alamat" rows="3" required></textarea>
+
+        <button type="submit">Pesan Sekarang</button>
+    </form>
+</div>
+
+<script>
+function kirimPesan() {
+    let nama = document.getElementById("nama").value;
+    let hp = document.getElementById("hp").value;
+    let menu = document.getElementById("menu").value;
+    let jumlah = document.getElementById("jumlah").value;
+    let alamat = document.getElementById("alamat").value;
+
+    let pesan = `Halo, saya ingin pesan:%0A
+Nama: ${nama}%0A
+No HP: ${hp}%0A
+Menu: ${menu}%0A
+Jumlah: ${jumlah}%0A
+Alamat: ${alamat}`;
+
+    let url = "https://wa.me/6285707689759?text=" + pesan;
+    window.open
+}
+</script>
+
+</body>
+</html>
+HTML
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pembayaran via WhatsApp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .btn-wa {
+            background-color: #25D366;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        .btn-wa:hover {
+            background-color: #1ebe5d;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Pembayaran via WhatsApp</h2>
+
+    <a class="btn-wa" 
+       href="https://wa.me/6285707689759?text=Halo%20saya%20ingin%20melakukan%20pembayaran%20pesanan%20ayam%20geprek" 
+       target="_blank">
+       Bayar via WhatsApp
+    </a>
+
+</body>
+</html>
